@@ -64,5 +64,5 @@ circuit = circuit_function(oracle)
 
 
 print(circuit)
-circuit.draw(output="mpl")
+circuit.draw(output="mpl", style="clifford")
 plt.show()
